@@ -290,3 +290,5 @@ For issues and questions:
 - **MCP Protocol**: Compatible with MCP SDK v1.13.2+
 - **Platforms**: macOS, Windows, Linux
 - **Claude Desktop**: >= 0.10.0 
+
+**Made with ❤️ for the MCP community**
