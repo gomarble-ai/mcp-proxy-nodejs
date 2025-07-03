@@ -145,7 +145,7 @@ If you don't want to build the extension yourself, you can directly drag and dro
 
 ### Screenshots
 
-![MCP SSE Proxy Installation](favicon.png)
+![MCP SSE Proxy Installation](screenshot.png)
 
 *The MCP SSE Proxy extension as it appears in Claude Desktop after installation. Users can easily configure the server name, SSE URL, and API key through the intuitive interface.*
 
