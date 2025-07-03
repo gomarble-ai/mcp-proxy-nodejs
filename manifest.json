@@ -1,0 +1,70 @@
+{
+    "dxt_version": "0.1",
+    "name": "stdio-to-sse-mcp",
+    "display_name": "My MCP Server",
+    "version": "0.1.0",
+    "description": "MCP server that proxies STDIO to SSE",
+    "long_description": "MCP server that proxies STDIO to SSE",
+    "author": {
+      "name": "Gomarble AI",
+      "email": "support@gomarble.ai",
+      "url": "https://gomarble.ai"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gomarble-ai"
+    },
+    "homepage": "https://gomarble.ai",
+    "icon": "favicon.png",
+    "server": {
+      "type": "node",
+      "entry_point": "server/index.js",
+      "mcp_config": {
+        "command": "node",
+        "args": [
+          "${__dirname}/server/index.js",
+          "${user_config.server_name}",
+          "${user_config.sse_url}",
+          "${user_config.api_key}"
+        ]
+      }
+    },
+    "tools": [],
+    "keywords": [
+      "stdio",
+      "sse",
+      "mcp",
+      "proxy"
+    ],
+    "license": "MIT",
+    "user_config": {
+      "server_name": {
+        "type": "string",
+        "title": "Server Name",
+        "description": "The name of the server",
+        "sensitive": false,
+        "required": true
+      },
+      "sse_url": {
+        "type": "string",
+        "title": "SSE Server URL",
+        "description": "The URL of the SSE endpoint to proxy to",
+        "sensitive": false,
+        "required": true
+      },
+      "api_key": {
+        "type": "string",
+        "title": "SSE Server API Key",
+        "description": "The API key to use for the SSE endpoint. If not provided, the SSE endpoint will not be authenticated.",
+        "sensitive": true,
+        "required": false
+      }
+    },
+    "compatibility": {
+      "claude_desktop": ">=0.10.0",
+      "platforms": ["darwin", "win32", "linux"],
+      "runtimes": {
+        "node": ">=16.0.0"
+      }
+    }
+  }

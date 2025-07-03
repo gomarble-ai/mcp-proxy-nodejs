@@ -1,0 +1,26 @@
+{
+  "name": "stdio-to-sse-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that proxies STDIO to SSE",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js server_name sse_url api_key",
+    "dev": "node server/index.js server_name sse_url api_key"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "sse",
+    "stdio",
+    "proxy",
+    "modelcontextprotocol"
+  ],
+  "author": "",
+  "license": "MIT"
+}
