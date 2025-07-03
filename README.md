@@ -263,6 +263,15 @@ Enable detailed logging by examining the console output. The proxy logs:
 - Error messages with stack traces
 - Performance timing
 
+## Join our community for help and updates
+
+👉 **Slack Community -** [AI in Ads](https://join.slack.com/t/ai-in-ads/shared_invite/zt-379x2i0nk-W3VSAh2c6uddFgxxksA2oQ)
+
+## Also checkout our other projects
+
+👉 **Facebook Ads MCP -** [Facebook Ads MCP](https://github.com/gomarble-ai/facebook-ads-mcp-server)
+👉 **Google Ads MCP -** [Google Ads MCP](https://github.com/gomarble-ai/google-ads-mcp-server)
+
 ## License
 
 MIT License - see LICENSE file for details
