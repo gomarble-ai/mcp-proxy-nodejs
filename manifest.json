@@ -1,10 +1,10 @@
 {
     "dxt_version": "0.1",
-    "name": "stdio-to-sse-mcp",
-    "display_name": "My MCP Server",
+    "name": "gomarble-mcp-server",
+    "display_name": "GoMarble MCP Server",
     "version": "0.1.0",
-    "description": "MCP server that proxies STDIO to SSE",
-    "long_description": "MCP server that proxies STDIO to SSE",
+    "description": "Gomarble MCP Server",
+    "long_description": "Gomarble MCP Server",
     "author": {
       "name": "Gomarble AI",
       "email": "support@gomarble.ai",
@@ -23,8 +23,8 @@
         "command": "node",
         "args": [
           "${__dirname}/server/index.js",
-          "${user_config.server_name}",
-          "${user_config.sse_url}",
+          "Gomarble MCP Server",
+          "https://apps.gomarble.ai/mcp-api/sse",
           "${user_config.api_key}"
         ]
       }
@@ -38,26 +38,12 @@
     ],
     "license": "MIT",
     "user_config": {
-      "server_name": {
-        "type": "string",
-        "title": "Server Name",
-        "description": "The name of the server",
-        "sensitive": false,
-        "required": true
-      },
-      "sse_url": {
-        "type": "string",
-        "title": "SSE Server URL",
-        "description": "The URL of the SSE endpoint to proxy to",
-        "sensitive": false,
-        "required": true
-      },
       "api_key": {
         "type": "string",
-        "title": "SSE Server API Key",
-        "description": "The API key to use for the SSE endpoint. If not provided, the SSE endpoint will not be authenticated.",
+        "title": "Gomarble MCP Server API Key",
+        "description": "Create an API key in the Gomarble MCP Server integration page. Here: https://apps.gomarble.ai/setup/integrations",
         "sensitive": true,
-        "required": false
+        "required": true
       }
     },
     "compatibility": {
