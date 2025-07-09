@@ -265,7 +265,7 @@ Enable detailed logging by examining the console output. The proxy logs:
 
 ## Join our community for help and updates
 
-👉 **Slack Community -** [AI in Ads](https://join.slack.com/t/ai-in-ads/shared_invite/zt-379x2i0nk-W3VSAh2c6uddFgxxksA2oQ)
+👉 **Slack Community -** [AI in Ads](https://join.slack.com/t/ai-in-ads/shared_invite/zt-36hntbyf8-FSFixmwLb9mtEzVZhsToJQ)
 
 ## Also checkout our other projects
 
